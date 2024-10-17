@@ -1,0 +1,29 @@
+
+
+--Rank Transform of an Array
+
+Dado un arreglo de enteros arr, reemplaza cada elemento con su rango.
+
+El rango representa qué tan grande es el elemento. Las reglas para el rango son las siguientes:
+
+El rango es un entero que comienza desde 1.
+Cuanto más grande sea el elemento, mayor será su rango. Si dos elementos son iguales, deben tener el mismo rango.
+El rango debe ser lo más pequeño posible.
+
+Ejemplo 1:
+
+Entrada: arr = [40, 10, 20, 30]
+
+Salida: [4, 1, 2, 3]
+
+Explicación: 40 es el elemento más grande. 10 es el más pequeño. 20 es el segundo más pequeño. 30 es el tercero más pequeño. Ejemplo 2:
+
+Entrada: arr = [100, 100, 100]
+
+Salida: [1, 1, 1]
+
+Explicación: Los elementos iguales tienen el mismo rango. Ejemplo 3:
+
+Entrada: arr = [37, 12, 28, 9, 100, 56, 80, 5, 12]
+
+Salida: [5, 3, 4, 2, 8, 6, 7, 1, 3]

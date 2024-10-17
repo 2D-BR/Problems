@@ -1,0 +1,31 @@
+1405. Longest Happy String
+
+
+Una cadena s se llama feliz si satisface las siguientes condiciones:
+
+    s solo contiene las letras 'a', 'b' y 'c'.
+    s no contiene ninguna de las subcadenas "aaa", "bbb" o "ccc".
+    s contiene como máximo a ocurrencias de la letra 'a'.
+    s contiene como máximo b ocurrencias de la letra 'b'.
+    s contiene como máximo c ocurrencias de la letra 'c'.
+
+Dados tres enteros a, b y c, devuelve la cadena feliz más larga posible. Si hay varias cadenas felices de la misma longitud, devuelve cualquiera de ellas. Si no existe tal cadena, devuelve la cadena vacía "".
+
+Una subcadena es una secuencia contigua de caracteres dentro de una cadena.
+
+Ejemplo 1:
+
+Entrada: a = 1, b = 1, c = 7
+Salida: "ccaccbcc"
+Explicación: "ccbccacc" también sería una respuesta correcta.
+
+Ejemplo 2:
+
+Entrada: a = 7, b = 1, c = 0
+Salida: "aabaa"
+Explicación: Es la única respuesta correcta en este caso.
+
+Restricciones:
+
+    0 <= a, b, c <= 100
+    a + b + c > 0
