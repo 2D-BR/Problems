@@ -1,6 +1,6 @@
 
 
---Rank Transform of an Array
+1331. Rank Transform of an Array
 
 Dado un arreglo de enteros arr, reemplaza cada elemento con su rango.
 
