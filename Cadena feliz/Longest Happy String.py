@@ -18,6 +18,11 @@ class Solution(object):
         n = 0
         cont = 0
 
+        for i in letras_ordenadas:
+            if i[0] == 0:
+                letras_ordenadas.pop()
+
+
         while n < len(letras_ordenadas):
             if letras_ordenadas[n][0] > 0 and cont < 2:
                 happy += letras_ordenadas[n][1]
